@@ -1,7 +1,11 @@
 .header {
-  padding-top: rem(40);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  min-height: 100vh;
   background: linear-gradient(180deg, #ddead9 0%, #ebebeb 100%);
+
+  &__top {
+    padding-top: rem(40);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }

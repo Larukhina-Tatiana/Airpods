@@ -17,7 +17,6 @@ ul[class] {
 }
 
 img {
-  max-width: 100%;
   display: block;
 }
 
@@ -125,9 +124,6 @@ button,
   outline: 1px solid brown;
 }
 
-.cover {
-  min-height: 100vh;
-}
 .cover::before {
   position: absolute;
   content: "";
@@ -169,11 +165,14 @@ button,
 }
 
 .header {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #ddead9 0%, #ebebeb 100%);
+}
+.header__top {
   padding-top: 2.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(180deg, #ddead9 0%, #ebebeb 100%);
 }
 
 .nav__list {
