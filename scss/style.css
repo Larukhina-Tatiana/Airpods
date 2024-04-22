@@ -124,46 +124,6 @@ button,
   outline: 1px solid brown;
 }
 
-.cover::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  right: 0;
-  left: 0;
-  z-index: -2;
-}
-.cover__title {
-  font-weight: 700;
-  font-size: 13.125rem;
-}
-.cover__title-span {
-  position: absolute;
-}
-.cover__title-span--air {
-  top: 22.125rem;
-  left: -0.625rem;
-}
-.cover__title-span--pod {
-  top: 22.125rem;
-  left: 18.0625rem;
-  z-index: -1;
-}
-.cover__title-span--s {
-  top: 24.3125rem;
-  left: 44.1875rem;
-}
-.cover__title-span--m {
-  top: 35.5625rem;
-  left: 55.8125rem;
-}
-.cover__title-span--ax {
-  top: 44.4375rem;
-  left: 61.6875rem;
-  z-index: -1;
-}
-
 .header {
   min-height: 100vh;
   background: linear-gradient(180deg, #ddead9 0%, #ebebeb 100%);
