@@ -1,0 +1,24 @@
+:root {
+    --black: #000;
+    --grey: #777;
+    --milk: #fafafa;
+    --white: #fff;
+    --font-family: "Inter", sans-serif;
+}
+
+
+
+@mixin transition ($transition-property: color, $transition-duration: 550ms, $transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)) {
+    transition-duration: $transition-duration;
+    transition-timing-function: $transition-timing-function;
+}
+
+// @include transition ($transition-property: color);
+
+
+// <svg class="projects__item-svg" width="30" height="30" aria-label="РРєРѕРЅРєР° РїРѕРёСЃРєР°">
+// <use href="./images/projects/icons.svg#icon-search"></use>
+// </svg>
+
+// @media screen and (width < 1034px ) {}
+// @media screen and (min-width: 480px) and (max-width: 768px) {}
