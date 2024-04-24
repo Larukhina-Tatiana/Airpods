@@ -1,0 +1,39 @@
+.composition {
+  text-align: center;
+  padding-bottom: rem(180);
+
+  &__text {
+    max-width: rem(654);
+    margin-left: auto;
+    margin-right: auto;
+
+    &:not(:last-child) {
+      margin-bottom: rem(40);
+    }
+  }
+
+  &__inner {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: rem(40);
+
+  }
+
+  &__list {
+    max-width: rem(246);
+    margin-right: rem(62);
+  }
+
+  &__item {
+
+    &:not(:last-child) {
+      margin-bottom: rem(80);
+    }
+  }
+
+  &__picture {
+    padding-left: rem(48);
+  }
+}

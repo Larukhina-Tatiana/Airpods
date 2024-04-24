@@ -17,6 +17,7 @@ ul[class] {
 }
 
 img {
+  width: 100%;
   display: block;
 }
 
@@ -157,4 +158,75 @@ button,
 .hero {
   padding-top: 4.5625rem;
   padding-bottom: 10.125rem;
+}
+
+.colours {
+  padding: 2.875rem 0 11.25rem;
+  text-align: center;
+}
+.colours__title {
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+.colours__title:not(:last-child) {
+  margin-bottom: 1.25rem;
+}
+.colours__text {
+  max-width: 35.4375rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.colours__text:not(:last-child) {
+  margin-bottom: 5rem;
+}
+.colours__list {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+.colours__item {
+  flex-basis: calc((100% - 40px) / 3);
+}
+.colours__btn {
+  padding: 3.125rem 3.4375rem;
+  border: 1px solid var(--grey);
+  border-radius: 1.25rem;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 4rem;
+}
+.subtitle:not(:last-child) {
+  margin-bottom: 1.25rem;
+}
+
+.composition {
+  text-align: center;
+  padding-bottom: 11.25rem;
+}
+.composition__text {
+  max-width: 40.875rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.composition__text:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+.composition__inner {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+.composition__list {
+  max-width: 15.375rem;
+  margin-right: 3.875rem;
+}
+.composition__item:not(:last-child) {
+  margin-bottom: 5rem;
+}
+.composition__picture {
+  padding-left: 3rem;
 }/*# sourceMappingURL=style.css.map */

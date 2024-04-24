@@ -1,0 +1,40 @@
+.colours {
+  padding: rem(46) 0 rem(180);
+  text-align: center;
+
+  &__title {
+    font-weight: 700;
+    font-size: rem(36);
+
+    &:not(:last-child) {
+      margin-bottom: rem(20);
+    }
+  }
+
+  &__text {
+    max-width: rem(567);
+    margin-left: auto;
+    margin-right: auto;
+
+    &:not(:last-child) {
+      margin-bottom: rem(80);
+    }
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: rem(40);
+  }
+
+  &__item {
+    flex-basis: calc((100% - 40px) / 3);
+  }
+
+  &__btn {
+    padding: rem(50) rem(55);
+    border: 1px solid var(--grey);
+    border-radius: rem(20);
+    // width: rem(260);
+  }
+}
