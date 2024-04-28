@@ -1,9 +1,21 @@
 .button {
   border-radius: rem(30);
-  padding: rem(15) rem(58);
-  max-width: rem(150);
-  // height: 50px;
-  background: var(--black);
-  color: var(--white);
+  // padding: rem(15) rem(58);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: clamp(4.375rem, 2.557rem + 9.09vw, 9.375rem);
+  height: clamp(1.875rem, 1.42rem + 2.27vw, 3.125rem);
   text-transform: uppercase;
+  margin: 0 auto;
+
+  &--black {
+    background: var(--black);
+    color: var(--white);
+  }
+
+  &--white {
+    background: var(--white);
+    color: var(--black);
+  }
 }

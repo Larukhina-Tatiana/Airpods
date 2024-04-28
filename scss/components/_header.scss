@@ -3,9 +3,14 @@
   background: linear-gradient(180deg, #ddead9 0%, #ebebeb 100%);
 
   &__top {
-    padding-top: rem(40);
+    padding-top: clamp(1.25rem, 0.795rem + 2.27vw, 2.5rem);
+    // padding-top: rem(40);
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  @media screen and (width < 479.99px) {
+    min-height: auto;
   }
 }

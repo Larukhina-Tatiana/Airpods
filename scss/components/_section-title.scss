@@ -1,0 +1,24 @@
+.section {
+  text-align: center;
+  // padding-bottom: rem(180);
+  padding-bottom: clamp(2.5rem, -0.682rem + 15.91vw, 11.25rem);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: clamp(1.625rem, 0.761rem + 4.32vw, 4rem);
+  // font-size: rem(64);
+
+  &:not(:last-child) {
+    margin-bottom: rem(20);
+  }
+}
+
+.section-text {
+  margin-left: auto;
+  margin-right: auto;
+
+  &:not(:last-child) {
+    margin-bottom: clamp(1.25rem, 0.795rem + 2.27vw, 2.5rem);
+  }
+}

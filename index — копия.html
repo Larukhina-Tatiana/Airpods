@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airpods</title>
+  <link rel="stylesheet" href="./scss/modern-normalize.min.css">
+  <!-- <link rel="stylesheet" href="../node_modules/animate.css/animate.min.css"> -->
+  <link rel="stylesheet" href="./scss/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+        <a class="header__logo">
+          <img class="header__logo-svg" src="./images/icons/logo.svg" alt="logo">
+        </a>
+        <nav class="header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="">Info</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="">Product</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="">Contacts</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link nav__btn button button--black" href="">BUY</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header___hero hero">
+        <h1 class="visually-hidden ">Airpods</h1>
+        <img class="hero__images" src="image/png" srcset="
+                                ./images/hero/bg/hero-bg-green1x.png 1x, 
+                                ./images/hero/bg/hero-bg-green2x.png 2x,
+                                ./images/hero/bg/hero-bg-green3x.png 3x" loading="lazy" decoding="async"
+          alt="images airpods max green">
+        <!-- <img class="hero__images" src="image/png" srcset="
+                                ./images/hero/bg/hero-bg-silver1x.png 1x, 
+                                ./images/hero/bg/hero-bg-silver2x.png 2x,
+                                ./images/hero/bg/hero-bg-silver3x.png 3x" loading="lazy" decoding="async"
+          alt="images airpods max silver"> -->
+        <!-- <img class="hero__images" src="image/png" srcset="
+                                ./images/hero/bg/hero-bg-pink1x.png 1x, 
+                                ./images/hero/bg/hero-bg-pink2x.png 2x,
+                                ./images/hero/bg/hero-bg-pink3x.png 3x" loading="lazy" decoding="async"
+          alt="imsges airpods max pink"> -->
+        <!-- <img class="hero__images" src="image/png" srcset="
+                                ./images/hero/bg/hero-bg-grey1x.png 1x, 
+                                ./images/hero/bg/hero-bg-grey2x.png 2x,
+                                ./images/hero/bg/hero-bg-grey3x.png 3x" loading="lazy" decoding="async"
+          alt="images airpods max grey"> -->
+        <!-- <img class="hero__images" src="image/png" srcset="
+                                ./images/hero/bg/hero-bg-blue1x.png 1x, 
+                                ./images/hero/bg/hero-bg-blue2x.png 2x,
+                                ./images/hero/bg/hero-bg-blue3x.png 3x" loading="lazy" decoding="async"
+          alt="images airpods max blue"> -->
+
+        <!-- <div class="hero__picture">
+          <picture>
+            <source type="image/avif" srcset="
+          ./images/hero/airpods-max-select-silver@1x.avif 1x,
+          ./images/hero/airpods-max-select-silver@2x.avif 2x,
+          ./images/hero/airpods-max-select-silver@3x.avif 3x">
+            <source type="image/webp" srcset="
+            ./images/hero/airpods-max-select-silver@1x.webp 1x, 
+            ./images/hero/airpods-max-select-silver@2x.webp 2x,
+            ./images/hero/airpods-max-select-silver@3x.webp 3x">
+            <img class="hero__images" src="image/png" srcset="
+            ./images/hero/airpods-max-select-silver@1x.png 1x, 
+            ./images/hero/airpods-max-select-silver@2x.png 2x,
+            ./images/hero/airpods-max-select-silver@3x.png 3x" loading="lazy" decoding="async"
+              alt="airpods-max-select-silver">
+          </picture>
+
+          <!-- <picture>
+          <source type="image/avif" srcset="
+                  ./images/hero/airpods-max-select-green@1x.avif 1x, 
+                  ./images/hero/airpods-max-select-green@2x.avif 2x,
+                  ./images/hero/airpods-max-select-green@3x.avif 3x">
+          <source type="image/webp" srcset="
+                    ./images/hero/airpods-max-select-green@1x.webp 1x, 
+                    ./images/hero/airpods-max-select-green@2x.webp 2x,
+                    ./images/hero/airpods-max-select-green@3x.webp 3x">
+          <img class="hero__images" src="image/png" srcset="
+                    ./images/hero/airpods-max-select-green@1x.png 1x, 
+                    ./images/hero/airpods-max-select-green@2x.png 2x,
+                    ./images/hero/airpods-max-select-green@3x.png 3x" loading="lazy" decoding="async"
+            alt="airpods-max-select-greeen">
+        </picture>
+
+        <picture>
+          <source type="image/avif" srcset="
+          ./images/hero/airpods-max-select-pink@1x.avif 1x,
+          ./images/hero/airpods-max-select-pink@2x.avif 2x,
+          ./images/hero/airpods-max-select-pink@3x.avif 3x">
+          <source type="image/webp" srcset="
+            ./images/hero/airpods-max-select-pink@1x.webp 1x, 
+            ./images/hero/airpods-max-select-pink@2x.webp 2x,
+            ./images/hero/airpods-max-select-pink@3x.webp 3x">
+          <img class="hero__images" src="image/png" srcset="
+            ./images/hero/airpods-max-select-pink@1x.png 1x, 
+            ./images/hero/airpods-max-select-pink@2x.png 2x,
+            ./images/hero/airpods-max-select-pink@3x.png 3x" loading="lazy" decoding="async"
+            alt="airpods-max-select-pink">
+        </picture>
+
+        <picture>
+          <source type="image/avif" srcset="
+                  ./images/hero/airpods-max-select-blue@1x.avif 1x, 
+                  ./images/hero/airpods-max-select-blue@2x.avif 2x,
+                  ./images/hero/airpods-max-select-blue@3x.avif 3x">
+          <source type="image/webp" srcset="
+                    ./images/hero/airpods-max-select-blue@1x.webp 1x, 
+                    ./images/hero/airpods-max-select-blue@2x.webp 2x,
+                    ./images/hero/airpods-max-select-blue@3x.webp 3x">
+          <img class="hero__images" src="image/png" srcset="
+                    ./images/hero/airpods-max-select-blue@1x.png 1x, 
+                    ./images/hero/airpods-max-select-blue@2x.png 2x,
+                    ./images/hero/airpods-max-select-blue@3x.png 3x" loading="lazy" decoding="async"
+            alt="airpods-max-select-blue">
+        </picture>
+
+        <picture>
+          <source type="image/avif" srcset="
+                  ./images/hero/airpods-max-select-gray@1x.avif 1x, 
+                  ./images/hero/airpods-max-select-gray@2x.avif 2x,
+                  ./images/hero/airpods-max-select-gray@3x.avif 3x">
+          <source type="image/webp" srcset="
+                    ./images/hero/airpods-max-select-gray@1x.webp 1x, 
+                    ./images/hero/airpods-max-select-gray@2x.webp 2x,
+                    ./images/hero/airpods-max-select-gray@3x.webp 3x">
+          <img class="hero__images" src="image/png" srcset="
+                    ./images/hero/airpods-max-select-gray@1x.png 1x, 
+                    ./images/hero/airpods-max-select-gray@2x.png 2x,
+                    ./images/hero/airpods-max-select-gray@3x.png 3x" loading="lazy" decoding="async"
+            alt="airpods-max-select-gray">
+        </picture> -->
+
+        <!-- <h1 class="cover__title">
+            <span class="cover__title-span cover__title-span--air">Air</span>
+            <span class="cover__title-span cover__title-span--pod">Pod</span>
+            <span class="cover__title-span cover__title-span--s">S</span>
+            <span class="cover__title-span cover__title-span--m">M</span>
+            <span class="cover__title-span cover__title-span--ax">AX</span>
+          </h1>
+        </div> -->
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="colours container section">
+      <h3 class="colours__title">
+        Choose your colour
+      </h3>
+      <p class="colours__text section-text">
+        The perfect balance between the purityof hi‑fi and the magic of AirPods.
+        The ultimate personal audio experience.
+      </p>
+
+      <ul class="colours__list">
+        <!-- <li class="colours__item">
+          <button class='colours__btn'>
+          <img class="colours__images" src="image/png" srcset="
+            ./images/colours/color-green1x.png 1x, 
+            ./images/colours/color-green2x.png 2x,
+            ./images/colours/color-green3x.png 3x" loading="lazy" decoding="async" alt="images airpods max silver">
+          </button>
+        </li> -->
+        <li class="colours__item">
+          <button class='colours__btn'>
+            <img class="colours__images" src="image/png" srcset="
+            ./images/colours/color-silver1x.png 1x, 
+            ./images/colours/color-silver2x.png 2x,
+            ./images/colours/color-silver3x.png 3x" loading="lazy" decoding="async" alt="images airpods max silver">
+          </button>
+        </li>
+        <li class="colours__item">
+          <button class='colours__btn'>
+            <img class="colours__images" src="image/png" srcset="
+            ./images/colours/color-blue1x.png 1x, 
+            ./images/colours/color-blue2x.png 2x,
+            ./images/colours/color-blue3x.png 3x" loading="lazy" decoding="async" alt="images airpods max blue">
+          </button>
+        </li>
+        <li class="colours__item">
+          <button class='colours__btn'>
+            <img class="colours__images" src="image/png" srcset="
+            ./images/colours/color-pink1x.png 1x, 
+            ./images/colours/color-pink2x.png 2x,
+            ./images/colours/color-pink3x.png 3x" loading="lazy" decoding="async" alt="images airpods max pink">
+          </button>
+        </li>
+        <li class="colours__item">
+          <button class='colours__btn'>
+            <img class="colours__images" src="image/png" srcset="
+            ./images/colours/color-grey1x.png 1x, 
+            ./images/colours/color-grey2x.png 2x,
+            ./images/colours/color-grey3x.png 3x" loading="lazy" decoding="async" alt="images airpods max grey">
+          </button>
+        </li>
+      </ul>
+    </section>
+    <section class="composition container section">
+      <h2 class="section-title">An extremely original composition.</h2>
+      <p class="composition__text section-text">
+        Introducing the reinvention of over-the-ear headphones. From the cushion to the headband, the AirPods Max are
+        designed
+        with acoustic insulation in mind, adapted to many head shapes, so you can immerse yourself in the purity of
+        sound.
+      </p>
+      <div class="composition__inner">
+        <ul class="composition__list">
+          <li class="composition__item">
+            <p class="composition__descr">
+              The headband is made of breathable mesh, distributing the weight to reduce pressure on the head.
+            </p>
+          </li>
+          <li class="composition__item">
+            <p class="composition__descr">
+              The stainless steel structure is wrapped in a soft-touch material to provide a remarkable harmony between
+              resistance, flexibility and comfort.
+            </p>
+          </li>
+          <li class="composition__item">
+            <p class="composition__descr">
+              The telescoping arms expand and stay in any position you want, allowing you to maintain fit and isolation.
+            </p>
+          </li>
+        </ul>
+        <div class="composition__picture">
+          <!-- <picture>
+            <source type="image/avif" srcset="
+                    ./images/composition/composition-silver1x.avif 1x,
+                    ./images/composition/composition-silver2x.avif 2x,
+                    ./images/composition/composition-silver3x.avif 3x">
+            <source type="image/webp" srcset="
+                      ./images/composition/composition-silver1x.webp 1x, 
+                      ./images/composition/composition-silver2x.webp 2x,
+                      ./images/composition/composition-silver3x.webp 3x">
+            <img class="composition__images" src="image/img" srcset="
+                      ./images/composition/composition-silver1x.jpg 1x, 
+                      ./images/composition/composition-silver2x.jpg 2x,
+                      ./images/composition/composition-silver3x.jpg 3x" loading="lazy" decoding="async"
+              alt="airpods-max-select-silver">
+          </picture> -->
+          <picture>
+            <source type="image/avif" srcset="
+                    ./images/composition/composition-green1x.avif 1x,
+                    ./images/composition/composition-green2x.avif 2x,
+                    ./images/composition/composition-green3x.avif 3x">
+            <source type="image/webp" srcset="
+                      ./images/composition/composition-green1x.webp 1x, 
+                      ./images/composition/composition-green2x.webp 2x,
+                      ./images/composition/composition-green3x.webp 3x">
+            <img class="composition__images" src="image/img" srcset="
+                      ./images/composition/composition-green1x.jpg 1x, 
+                      ./images/composition/composition-green2x.jpg 2x,
+                      ./images/composition/composition-green3x.jpg 3x" loading="lazy" decoding="async"
+              alt="airpods-max-select-green">
+          </picture>
+          <!-- <picture>
+            <source type="image/avif" srcset="
+                    ./images/composition/composition-grey1x.avif 1x,
+                    ./images/composition/composition-grey2x.avif 2x,
+                    ./images/composition/composition-grey3x.avif 3x">
+            <source type="image/webp" srcset="
+                      ./images/composition/composition-grey1x.webp 1x, 
+                      ./images/composition/composition-grey2x.webp 2x,
+                      ./images/composition/composition-grey3x.webp 3x">
+            <img class="composition__images" src="image/img" srcset="
+                      ./images/composition/composition-grey1x.jpg 1x, 
+                      ./images/composition/composition-grey2x.jpg 2x,
+                      ./images/composition/composition-grey3x.jpg 3x" loading="lazy" decoding="async"
+              alt="airpods-max-select-grey">
+          </picture> -->
+          <!-- <picture>
+            <source type="image/avif" srcset="
+                    ./images/composition/composition-pink1x.avif 1x,
+                    ./images/composition/composition-pink2x.avif 2x,
+                    ./images/composition/composition-pink3x.avif 3x">
+            <source type="image/webp" srcset="
+                      ./images/composition/composition-pink1x.webp 1x, 
+                      ./images/composition/composition-pink2x.webp 2x,
+                      ./images/composition/composition-pink3x.webp 3x">
+            <img class="composition__images" src="image/img" srcset="
+                      ./images/composition/composition-pink1x.jpg 1x, 
+                      ./images/composition/composition-pink2x.jpg 2x,
+                      ./images/composition/composition-pink3x.jpg 3x" loading="lazy" decoding="async"
+              alt="airpods-max-select-pink">
+          </picture> -->
+          <!-- <picture>
+            <source type="image/avif" srcset="
+                    ./images/composition/composition-blue1x.avif 1x,
+                    ./images/composition/composition-blue2x.avif 2x,
+                    ./images/composition/composition-blue3x.avif 3x">
+            <source type="image/webp" srcset="
+                      ./images/composition/composition-blue1x.webp 1x, 
+                      ./images/composition/composition-blue2x.webp 2x,
+                      ./images/composition/composition-blue3x.webp 3x">
+            <img class="composition__images" src="image/img" srcset="
+                      ./images/composition/composition-blue1x.jpg 1x, 
+                      ./images/composition/composition-blue2x.jpg 2x,
+                      ./images/composition/composition-blue3x.jpg 3x" loading="lazy" decoding="async"
+              alt="airpods-max-select-blue">
+          </picture> -->
+
+        </div>
+      </div>
+    </section>
+
+    <section class="smartcase section">
+      <div class="container">
+        <h2 class="section-title">It even preserves the battery.</h2>
+        <p class="section-text smartcase__text">
+          When stored in the sleek and lightweight <span class="smartcase__span">Smart Case</span>, AirPods Max enter a
+          low-power state to save energy.
+        </p>
+
+        <div class="smartcase__picture">
+          <!-- <picture>
+                    <source type="image/avif" srcset="
+                            ./images/smartcase/smartcase-silver1x.avif 1x,
+                            ./images/smartcase/smartcase-silver2x.avif 2x,
+                            ./images/smartcase/smartcase-silver3x.avif 3x">
+                    <source type="image/webp" srcset="
+                              ./images/smartcase/smartcase-silver1x.webp 1x, 
+                              ./images/smartcase/smartcase-silver2x.webp 2x,
+                              ./images/smartcase/smartcase-silver3x.webp 3x">
+                    <img class="smartcase__images" src="image/img" srcset="
+                              ./images/smartcase/smartcase-silver1x.jpg 1x, 
+                              ./images/smartcase/smartcase-silver2x.jpg 2x,
+                              ./images/smartcase/smartcase-silver3x.jpg 3x" loading="lazy" decoding="async"
+                      alt="airpods-max-select-silver">
+                  </picture> -->
+          <picture>
+            <source type="image/avif" srcset="
+                            ./images/smartcase/smartcase-green1x.avif 1x,
+                            ./images/smartcase/smartcase-green2x.avif 2x,
+                            ./images/smartcase/smartcase-green3x.avif 3x">
+            <source type="image/webp" srcset="
+                              ./images/smartcase/smartcase-green1x.webp 1x, 
+                              ./images/smartcase/smartcase-green2x.webp 2x,
+                              ./images/smartcase/smartcase-green3x.webp 3x">
+            <img class="smartcase__images" src="image/img" srcset="
+                              ./images/smartcase/smartcase-green1x.jpg 1x, 
+                              ./images/smartcase/smartcase-green2x.jpg 2x,
+                              ./images/smartcase/smartcase-green3x.jpg 3x" loading="lazy" decoding="async"
+              alt="airpods-max-select-green">
+          </picture>
+          <!-- <picture>
+                    <source type="image/avif" srcset="
+                            ./images/smartcase/smartcase-grey1x.avif 1x,
+                            ./images/smartcase/smartcase-grey2x.avif 2x,
+                            ./images/smartcase/smartcase-grey3x.avif 3x">
+                    <source type="image/webp" srcset="
+                              ./images/smartcase/smartcase-grey1x.webp 1x, 
+                              ./images/smartcase/smartcase-grey2x.webp 2x,
+                              ./images/smartcase/smartcase-grey3x.webp 3x">
+                    <img class="smartcase__images" src="image/img" srcset="
+                              ./images/smartcase/smartcase-grey1x.jpg 1x, 
+                              ./images/smartcase/smartcase-grey2x.jpg 2x,
+                              ./images/smartcase/smartcase-grey3x.jpg 3x" loading="lazy" decoding="async"
+                      alt="airpods-max-select-grey">
+                  </picture> -->
+          <!-- <picture>
+                    <source type="image/avif" srcset="
+                            ./images/smartcase/smartcase-pink1x.avif 1x,
+                            ./images/smartcase/smartcase-pink2x.avif 2x,
+                            ./images/smartcase/smartcase-pink3x.avif 3x">
+                    <source type="image/webp" srcset="
+                              ./images/smartcase/smartcase-pink1x.webp 1x, 
+                              ./images/smartcase/smartcase-pink2x.webp 2x,
+                              ./images/smartcase/smartcase-pink3x.webp 3x">
+                    <img class="smartcase__images" src="image/img" srcset="
+                              ./images/smartcase/smartcase-pink1x.jpg 1x, 
+                              ./images/smartcase/smartcase-pink2x.jpg 2x,
+                              ./images/smartcase/smartcase-pink3x.jpg 3x" loading="lazy" decoding="async"
+                      alt="airpods-max-select-pink">
+                  </picture> -->
+          <!-- <picture>
+                    <source type="image/avif" srcset="
+                            ./images/smartcase/smartcase-blue1x.avif 1x,
+                            ./images/smartcase/smartcase-blue2x.avif 2x,
+                            ./images/smartcase/smartcase-blue3x.avif 3x">
+                    <source type="image/webp" srcset="
+                              ./images/smartcase/smartcase-blue1x.webp 1x, 
+                              ./images/smartcase/smartcase-blue2x.webp 2x,
+                              ./images/smartcase/smartcase-blue3x.webp 3x">
+                    <img class="smartcase__images" src="image/img" srcset="
+                              ./images/smartcase/smartcase-blue1x.jpg 1x, 
+                              ./images/smartcase/smartcase-blue2x.jpg 2x,
+                              ./images/smartcase/smartcase-blue3x.jpg 3x" loading="lazy" decoding="async"
+                      alt="airpods-max-select-blue">
+                  </picture> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="stayinalive section">
+      <div class="container">
+        <h2 class="section-title stayinalive__title">Stayin' alive, stayin' alive.</h2>
+        <span class="stayinalive__num">20</span>
+        <p class="section-text stayinalive__text">
+          hours of music, movies and calls with Active Noise Cancellation and Custom Spatial Audio turned on. 5 And just
+          5
+          minutes
+          of charging via the Lightning connector gives you an hour and a half of sound. 6
+        </p>
+      </div>
+    </section>
+    <section class="custom section" style="background-image:
+-webkit-image-set(url(../images/custom/custom-hero-1x.avif) type('image/avif') 1x,
+        url(./images/custom/custom-hero-2x.avif) type('image/avif') 2x,
+        url(./images/custom/custom-hero-3x.avif) type('image/avif') 3x,
+        url(./images/custom/custom-hero-1x.webp) type('image/webp') 1x,
+        url(./images/custom/custom-hero-2x.webp) type('image/webp') 2x,
+        url(./images/custom/custom-hero-3x.webp) type('image/webp') 3x,
+        url(./images/custom/custom-hero-1x.jpg) 1x,
+        url(./images/custom/custom-hero-2x.jpg) 2x,
+        url(./images/custom/custom-hero-3x.jpg) 3x)">
+      <h2 class="visually-hidden">custom</h2>
+      <div class="custom__inner container">
+        <div class="custom__descr">
+          <!-- <div class="container"> -->
+          <p class="section-text custom__text">
+            Custom Spatial Audio with dynamic head tracking provides a surround sound experience worthy of a movie
+            theater.
+          </p>
+          <p class="section-text custom__text">
+            Through built-in gyroscopes and accelerometers, AirPods Max and your iPhone, iPad, Mac or Apple TV detect
+            the
+            slightest
+            head movements and keep the sound steady on your device.
+          </p>
+          <p class="section-text custom__text">
+            And with Apple Music, custom Spatial Audio with dynamic head tracking creates a unique three-dimensional
+            listening
+            experience.
+          </p>
+          <a class="custom__button button button--white" href="">BUY</a>
+          <!-- </div> -->
+        </div>
+        <!-- <picture>
+          <source type="image/avif" srcset="
+                                  ./images/custom/custom-1x.avif 1x,
+                                  ./images/custom/custom-2x.avif 2x,
+                                  ./images/custom/custom-3x.avif 3x">
+          <source type="image/webp" srcset="
+                                    ./images/custom/custom-1x.webp 1x, 
+                                    ./images/custom/custom-2x.webp 2x,
+                                    ./images/custom/custom-3x.webp 3x">
+          <img class="custom__images" src="image/img" srcset="
+                                    ./images/custom/custom-1x.jpg 1x, 
+                                    ./images/custom/custom-2x.jpg 2x,
+                                    ./images/custom/custom-3x.jpg 3x" loading="lazy" decoding="async"
+            alt="images background">
+        </picture> -->
+
+        <!--  -->
+
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <address class="footer__address">
+        <ul class="footer__address-list">
+          <li class="footer__address-item">
+            <a class="footer__link" href="">Find a retailer near you</a>
+          </li>
+          <li class="footer__address-item">
+            <a class="footer__address-link" href="tel:+800207758">Or call 800 207 758</a>
+          </li>
+          <li class="footer__address-item">
+            <a class="footer__logo">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="30" fill="none">
+                <path fill="#fff"
+                  d="M13.794 2.61C15.809.014 18.61 0 18.61 0s.417 2.443-1.585 4.796c-2.137 2.512-4.567 2.1-4.567 2.1s-.456-1.975 1.336-4.285Zm-1.08 5.998c1.037 0 2.96-1.394 5.465-1.394 4.31 0 6.006 3 6.006 3s-3.316 1.66-3.316 5.684c0 4.54 4.131 6.106 4.131 6.106s-2.888 7.952-6.789 7.952c-1.792 0-3.185-1.181-5.072-1.181-1.924 0-3.833 1.225-5.077 1.225C4.5 30 0 22.457 0 16.393c0-5.966 3.81-9.095 7.382-9.095 2.323 0 4.125 1.31 5.332 1.31Z" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </address>
+      <ul class=" footer__list">
+        <li class="footer__item">
+          Copyright © 2023 Apple Inc.
+        </li>
+        <li class="footer__item">
+          All rights reserved.
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="">Legal Notices</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="">Site Map</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="">Privacy Policy</a>
+        </li>
+      </ul>
+
+
+    </div>
+  </footer>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- <script src="node_modules/jquery/dist/jquery.min.js"></script>
+      <script src="node_modules/slick-carousel/slick/slick.min.js"></script> -->
+  <!-- <script src="js/libs.min.js"></script> -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>

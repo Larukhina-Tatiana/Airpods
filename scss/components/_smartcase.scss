@@ -1,0 +1,27 @@
+.smartcase {
+  background-color: var(--milk);
+  padding-top: clamp(2.5rem, 1.591rem + 4.55vw, 5rem);
+  padding-bottom: clamp(2.5rem, 1.591rem + 4.55vw, 5rem);
+
+  &__span {
+    font-weight: 700;
+  }
+
+  &__picture {
+    position: relative;
+    max-width: rem(400);
+    overflow: hidden;
+    height: rem(360);
+    margin: 0 auto;
+
+  }
+
+  &__images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+  }
+}

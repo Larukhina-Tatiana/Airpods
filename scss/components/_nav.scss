@@ -3,7 +3,7 @@
   &__list {
     display: flex;
     align-items: center;
-    gap: 0 rem(40);
+    gap: 0 clamp(0.625rem, -0.057rem + 3.41vw, 2.5rem);
   }
 
   &__link {

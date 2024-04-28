@@ -1,15 +1,6 @@
 .composition {
-  text-align: center;
-  padding-bottom: rem(180);
-
   &__text {
     max-width: rem(654);
-    margin-left: auto;
-    margin-right: auto;
-
-    &:not(:last-child) {
-      margin-bottom: rem(40);
-    }
   }
 
   &__inner {
@@ -17,23 +8,28 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: rem(40);
-
   }
 
   &__list {
     max-width: rem(246);
-    margin-right: rem(62);
+    // margin-right: rem(62);
+    margin-right: clamp(0rem, -6.889rem + 14.35vw, 3.875rem);
   }
 
   &__item {
 
     &:not(:last-child) {
-      margin-bottom: rem(80);
+      margin-bottom: clamp(1.875rem, 0.739rem + 5.68vw, 5rem);
+      // margin-bottom: rem(80);
     }
   }
 
   &__picture {
-    padding-left: rem(48);
+    padding-left: clamp(0rem, -5.333rem + 11.11vw, 3rem);
+    // padding-left: rem(48);
   }
+
+  @media screen and (width < 484.99px) {}
 }

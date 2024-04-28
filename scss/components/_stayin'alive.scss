@@ -1,0 +1,25 @@
+.stayinalive {
+  background-color: var(--milk);
+  padding-top: clamp(1.25rem, -0.114rem + 6.82vw, 5rem);
+
+  &__title {
+    &:not(:last-child) {
+      margin-bottom: clamp(1.25rem, 0.795rem + 2.27vw, 2.5rem);
+    }
+  }
+
+  &__num {
+    display: inline-block;
+    font-weight: 700;
+    // font-size: rem(210);
+    font-size: clamp(7.5rem, 5.455rem + 10.23vw, 13.125rem);
+
+    &:not(:last-child) {
+      margin-bottom: clamp(1.25rem, -0.114rem + 6.82vw, 5rem);
+    }
+  }
+
+  &__text {
+    max-width: rem(404);
+  }
+}
