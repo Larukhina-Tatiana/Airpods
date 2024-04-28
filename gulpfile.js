@@ -48,21 +48,12 @@ function fonts() {
 function styles() {
   // return src("app/scss/style.scss")
   return src([
-    "node_modules/swiper/swiper-bundle.css",
-    "node_modules/animate.css/animate.css",
-    // "node_modules/simplelightbox/dist/simple-lightbox.css",
-    "node_modules/nouislider/dist/nouislider.css",
-    // "node_modules/aos/dist/aos.css",
-    "css/ion.rangeSlider.css",
-    "css/jquery.formstyler.css",
-    "css/jquery.formstyler.theme.css",
-    // "css/jquery.rateyo.css",
     "scss/style.scss",
     // "!/css/style.min.css",
   ])
     .pipe(concat("style.min.css"))
     .pipe(scss({ outputStyle: "compressed" }))
-    .pipe(dest("css"))
+    .pipe(dest("scss"))
     .pipe(
       autoprefixer({
         overrideBrowsersList: ["last 10 version"],
@@ -75,15 +66,6 @@ function scripts() {
   return (
     src([
       "node_modules/jquery/dist/jquery.js",
-      "node_modules/swiper/swiper-bundle.js",
-      "node_modules/nouislider/dist/nouislider.js",
-      // "node_modules/simplelightbox/dist/simple-lightbox.min.js",
-      "node_modules/siema/dist/siema.min.js",
-      // "node_modules/aos/dist/aos.js",
-      "js/jquery.formstyler.min.js",
-      "js/ion.rangeSlider.min.js",
-      // "js/jquery.rateyo.js",
-      // "js/modal.js",
       "js/main.js",
 
       // Для подключения многих (всех) файлов js? Обязательно исключать main.min.js

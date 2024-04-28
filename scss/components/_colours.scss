@@ -19,7 +19,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
     // gap: rem(40);
     gap: clamp(1.25rem, -0.972rem + 4.63vw, 2.5rem);
   }
@@ -48,23 +47,26 @@
 
   &__btn {
     padding: rem(50) rem(55);
-    // width: rem(260);
   }
 
-  @media screen and (width < 768.99px) {
+  &__btn--active {
+    display: none;
+  }
+
+
+  @media screen and (width < 1023.99px) {
     &__list {
       flex-wrap: wrap;
-      justify-content: center;
     }
 
-    &__item {
-      flex-basis: calc((100% - 40px) / 2);
-    }
+    // &__item {
+    //   flex-basis: calc((100% - 40px) / 2);
+    // }
   }
 
   @media screen and (width < 375.99px) {
-    &__item {
-      flex-basis: 100%;
-    }
+    // &__item {
+    //   flex-basis: 100%;
+    // }
   }
 }

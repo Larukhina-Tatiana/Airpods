@@ -6,8 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Airpods</title>
   <link rel="stylesheet" href="./scss/modern-normalize.min.css">
-  <!-- <link rel="stylesheet" href="../node_modules/animate.css/animate.min.css"> -->
-  <link rel="stylesheet" href="./scss/style.css">
+  <link rel="stylesheet" href="./scss/style.min.css">
 </head>
 
 <body>
@@ -38,31 +37,31 @@
 
       <div class="header___hero hero">
         <h1 class="visually-hidden ">Airpods</h1>
-        <img class="hero__images" src="image/png" srcset="
+        <img class="hero__images content-item content-item--active color--green" src="image/png" srcset="
                                 ./images/hero/bg/hero-bg-green1x.png 1x, 
                                 ./images/hero/bg/hero-bg-green2x.png 2x,
                                 ./images/hero/bg/hero-bg-green3x.png 3x" loading="lazy" decoding="async"
           alt="images airpods max green">
-        <!-- <img class="hero__images" src="image/png" srcset="
+        <img class="hero__images content-item color--silver" src="image/png" srcset="
                                 ./images/hero/bg/hero-bg-silver1x.png 1x, 
                                 ./images/hero/bg/hero-bg-silver2x.png 2x,
                                 ./images/hero/bg/hero-bg-silver3x.png 3x" loading="lazy" decoding="async"
-          alt="images airpods max silver"> -->
-        <!-- <img class="hero__images" src="image/png" srcset="
+          alt="images airpods max silver">
+        <img class="hero__images content-item color--pink" src="image/png" srcset="
                                 ./images/hero/bg/hero-bg-pink1x.png 1x, 
                                 ./images/hero/bg/hero-bg-pink2x.png 2x,
                                 ./images/hero/bg/hero-bg-pink3x.png 3x" loading="lazy" decoding="async"
-          alt="imsges airpods max pink"> -->
-        <!-- <img class="hero__images" src="image/png" srcset="
+          alt="imsges airpods max pink">
+        <img class="hero__images content-item color--grey" src="image/png" srcset="
                                 ./images/hero/bg/hero-bg-grey1x.png 1x, 
                                 ./images/hero/bg/hero-bg-grey2x.png 2x,
                                 ./images/hero/bg/hero-bg-grey3x.png 3x" loading="lazy" decoding="async"
-          alt="images airpods max grey"> -->
-        <!-- <img class="hero__images" src="image/png" srcset="
+          alt="images airpods max grey">
+        <img class="hero__images content-item color--blue" src="image/png" srcset="
                                 ./images/hero/bg/hero-bg-blue1x.png 1x, 
                                 ./images/hero/bg/hero-bg-blue2x.png 2x,
                                 ./images/hero/bg/hero-bg-blue3x.png 3x" loading="lazy" decoding="async"
-          alt="images airpods max blue"> -->
+          alt="images airpods max blue">
       </div>
     </div>
   </header>
@@ -77,16 +76,16 @@
       </p>
 
       <ul class="colours__list">
-        <!-- <li class="colours__item">
-              <button class='colours__btn'>
-              <img class="colours__images" src="image/png" srcset="
+        <li class="colours__item">
+          <button class="colours__btn colours__btn--active" data-button="color--green">
+            <img class="colours__images" src="image/png" srcset="
                 ./images/colours/color-green1x.png 1x, 
                 ./images/colours/color-green2x.png 2x,
                 ./images/colours/color-green3x.png 3x" loading="lazy" decoding="async" alt="images airpods max silver">
-              </button>
-            </li> -->
+          </button>
+        </li>
         <li class="colours__item">
-          <button class='colours__btn'>
+          <button class="colours__btn" data-button="color--silver">
             <img class="colours__images" src="image/png" srcset="
                 ./images/colours/color-silver1x.png 1x, 
                 ./images/colours/color-silver2x.png 2x,
@@ -95,7 +94,7 @@
           </button>
         </li>
         <li class="colours__item">
-          <button class='colours__btn'>
+          <button class="colours__btn" data-button="color--blue">
             <img class="colours__images" src="image/png" srcset="
                 ./images/colours/color-blue1x.png 1x, 
                 ./images/colours/color-blue2x.png 2x,
@@ -103,7 +102,7 @@
           </button>
         </li>
         <li class="colours__item">
-          <button class='colours__btn'>
+          <button class="colours__btn" data-button="color--pink">
             <img class="colours__images" src="image/png" srcset="
                 ./images/colours/color-pink1x.png 1x, 
                 ./images/colours/color-pink2x.png 2x,
@@ -111,7 +110,7 @@
           </button>
         </li>
         <li class="colours__item">
-          <button class='colours__btn'>
+          <button class="colours__btn" data-button="color--grey">
             <img class="colours__images" src="image/png" srcset="
                 ./images/colours/color-grey1x.png 1x, 
                 ./images/colours/color-grey2x.png 2x,
@@ -148,21 +147,21 @@
           </li>
         </ul>
         <div class="composition__picture">
-          <!-- <picture>
-                <source type="image/avif" srcset="
+          <picture>
+            <source type="image/avif" srcset="
                         ./images/composition/composition-silver1x.avif 1x,
                         ./images/composition/composition-silver2x.avif 2x,
                         ./images/composition/composition-silver3x.avif 3x">
-                <source type="image/webp" srcset="
+            <source type="image/webp" srcset="
                           ./images/composition/composition-silver1x.webp 1x, 
                           ./images/composition/composition-silver2x.webp 2x,
                           ./images/composition/composition-silver3x.webp 3x">
-                <img class="composition__images" src="image/img" srcset="
+            <img class="composition__images content-item color--silver" src="image/img" srcset="
                           ./images/composition/composition-silver1x.jpg 1x, 
                           ./images/composition/composition-silver2x.jpg 2x,
                           ./images/composition/composition-silver3x.jpg 3x" loading="lazy" decoding="async"
-                  alt="airpods-max-select-silver">
-              </picture> -->
+              alt="airpods-max-select-silver">
+          </picture>
           <picture>
             <source type="image/avif" srcset="
                         ./images/composition/composition-green1x.avif 1x,
@@ -172,57 +171,57 @@
                           ./images/composition/composition-green1x.webp 1x, 
                           ./images/composition/composition-green2x.webp 2x,
                           ./images/composition/composition-green3x.webp 3x">
-            <img class="composition__images" src="image/img" srcset="
+            <img class="composition__images content-item  content-item--active color--green" src="image/img" srcset="
                           ./images/composition/composition-green1x.jpg 1x, 
                           ./images/composition/composition-green2x.jpg 2x,
                           ./images/composition/composition-green3x.jpg 3x" loading="lazy" decoding="async"
               alt="airpods-max-select-green">
           </picture>
-          <!-- <picture>
-                <source type="image/avif" srcset="
+          <picture>
+            <source type="image/avif" srcset="
                         ./images/composition/composition-grey1x.avif 1x,
                         ./images/composition/composition-grey2x.avif 2x,
                         ./images/composition/composition-grey3x.avif 3x">
-                <source type="image/webp" srcset="
+            <source type="image/webp" srcset="
                           ./images/composition/composition-grey1x.webp 1x, 
                           ./images/composition/composition-grey2x.webp 2x,
                           ./images/composition/composition-grey3x.webp 3x">
-                <img class="composition__images" src="image/img" srcset="
+            <img class="composition__images content-item color--grey" src="image/img" srcset="
                           ./images/composition/composition-grey1x.jpg 1x, 
                           ./images/composition/composition-grey2x.jpg 2x,
                           ./images/composition/composition-grey3x.jpg 3x" loading="lazy" decoding="async"
-                  alt="airpods-max-select-grey">
-              </picture> -->
-          <!-- <picture>
-                <source type="image/avif" srcset="
+              alt="airpods-max-select-grey">
+          </picture>
+          <picture>
+            <source type="image/avif" srcset="
                         ./images/composition/composition-pink1x.avif 1x,
                         ./images/composition/composition-pink2x.avif 2x,
                         ./images/composition/composition-pink3x.avif 3x">
-                <source type="image/webp" srcset="
+            <source type="image/webp" srcset="
                           ./images/composition/composition-pink1x.webp 1x, 
                           ./images/composition/composition-pink2x.webp 2x,
                           ./images/composition/composition-pink3x.webp 3x">
-                <img class="composition__images" src="image/img" srcset="
+            <img class="composition__images content-item color--pink" src="image/img" srcset="
                           ./images/composition/composition-pink1x.jpg 1x, 
                           ./images/composition/composition-pink2x.jpg 2x,
                           ./images/composition/composition-pink3x.jpg 3x" loading="lazy" decoding="async"
-                  alt="airpods-max-select-pink">
-              </picture> -->
-          <!-- <picture>
-                <source type="image/avif" srcset="
+              alt="airpods-max-select-pink">
+          </picture>
+          <picture>
+            <source type="image/avif" srcset="
                         ./images/composition/composition-blue1x.avif 1x,
                         ./images/composition/composition-blue2x.avif 2x,
                         ./images/composition/composition-blue3x.avif 3x">
-                <source type="image/webp" srcset="
+            <source type="image/webp" srcset="
                           ./images/composition/composition-blue1x.webp 1x, 
                           ./images/composition/composition-blue2x.webp 2x,
                           ./images/composition/composition-blue3x.webp 3x">
-                <img class="composition__images" src="image/img" srcset="
+            <img class="composition__images content-item color--blue" src="image/img" srcset="
                           ./images/composition/composition-blue1x.jpg 1x, 
                           ./images/composition/composition-blue2x.jpg 2x,
                           ./images/composition/composition-blue3x.jpg 3x" loading="lazy" decoding="async"
-                  alt="airpods-max-select-blue">
-              </picture> -->
+              alt="airpods-max-select-blue">
+          </picture>
 
         </div>
       </div>
@@ -236,21 +235,21 @@
         </p>
 
         <div class="smartcase__picture">
-          <!-- <picture>
-                        <source type="image/avif" srcset="
+          <picture>
+            <source type="image/avif" srcset="
                                 ./images/smartcase/smartcase-silver1x.avif 1x,
                                 ./images/smartcase/smartcase-silver2x.avif 2x,
                                 ./images/smartcase/smartcase-silver3x.avif 3x">
-                        <source type="image/webp" srcset="
+            <source type="image/webp" srcset="
                                   ./images/smartcase/smartcase-silver1x.webp 1x, 
                                   ./images/smartcase/smartcase-silver2x.webp 2x,
                                   ./images/smartcase/smartcase-silver3x.webp 3x">
-                        <img class="smartcase__images" src="image/img" srcset="
+            <img class="smartcase__images content-item color--silver" src="image/img" srcset="
                                   ./images/smartcase/smartcase-silver1x.jpg 1x, 
                                   ./images/smartcase/smartcase-silver2x.jpg 2x,
                                   ./images/smartcase/smartcase-silver3x.jpg 3x" loading="lazy" decoding="async"
-                          alt="airpods-max-select-silver">
-                      </picture> -->
+              alt="airpods-max-select-silver">
+          </picture>
           <picture>
             <source type="image/avif" srcset="
                                 ./images/smartcase/smartcase-green1x.avif 1x,
@@ -260,57 +259,57 @@
                                   ./images/smartcase/smartcase-green1x.webp 1x, 
                                   ./images/smartcase/smartcase-green2x.webp 2x,
                                   ./images/smartcase/smartcase-green3x.webp 3x">
-            <img class="smartcase__images" src="image/img" srcset="
+            <img class="smartcase__images content-item  content-item--active color--green" src="image/img" srcset="
                                   ./images/smartcase/smartcase-green1x.jpg 1x, 
                                   ./images/smartcase/smartcase-green2x.jpg 2x,
                                   ./images/smartcase/smartcase-green3x.jpg 3x" loading="lazy" decoding="async"
               alt="airpods-max-select-green">
           </picture>
-          <!-- <picture>
-                        <source type="image/avif" srcset="
+          <picture>
+            <source type="image/avif" srcset="
                                 ./images/smartcase/smartcase-grey1x.avif 1x,
                                 ./images/smartcase/smartcase-grey2x.avif 2x,
                                 ./images/smartcase/smartcase-grey3x.avif 3x">
-                        <source type="image/webp" srcset="
+            <source type="image/webp" srcset="
                                   ./images/smartcase/smartcase-grey1x.webp 1x, 
                                   ./images/smartcase/smartcase-grey2x.webp 2x,
                                   ./images/smartcase/smartcase-grey3x.webp 3x">
-                        <img class="smartcase__images" src="image/img" srcset="
+            <img class="smartcase__images content-item color--grey" src="image/img" srcset="
                                   ./images/smartcase/smartcase-grey1x.jpg 1x, 
                                   ./images/smartcase/smartcase-grey2x.jpg 2x,
                                   ./images/smartcase/smartcase-grey3x.jpg 3x" loading="lazy" decoding="async"
-                          alt="airpods-max-select-grey">
-                      </picture> -->
-          <!-- <picture>
-                        <source type="image/avif" srcset="
+              alt="airpods-max-select-grey">
+          </picture>
+          <picture>
+            <source type="image/avif" srcset="
                                 ./images/smartcase/smartcase-pink1x.avif 1x,
                                 ./images/smartcase/smartcase-pink2x.avif 2x,
                                 ./images/smartcase/smartcase-pink3x.avif 3x">
-                        <source type="image/webp" srcset="
+            <source type="image/webp" srcset="
                                   ./images/smartcase/smartcase-pink1x.webp 1x, 
                                   ./images/smartcase/smartcase-pink2x.webp 2x,
                                   ./images/smartcase/smartcase-pink3x.webp 3x">
-                        <img class="smartcase__images" src="image/img" srcset="
+            <img class="smartcase__images content-item color--pink" src="image/img" srcset="
                                   ./images/smartcase/smartcase-pink1x.jpg 1x, 
                                   ./images/smartcase/smartcase-pink2x.jpg 2x,
                                   ./images/smartcase/smartcase-pink3x.jpg 3x" loading="lazy" decoding="async"
-                          alt="airpods-max-select-pink">
-                      </picture> -->
-          <!-- <picture>
-                        <source type="image/avif" srcset="
+              alt="airpods-max-select-pink">
+          </picture>
+          <picture>
+            <source type="image/avif" srcset="
                                 ./images/smartcase/smartcase-blue1x.avif 1x,
                                 ./images/smartcase/smartcase-blue2x.avif 2x,
                                 ./images/smartcase/smartcase-blue3x.avif 3x">
-                        <source type="image/webp" srcset="
+            <source type="image/webp" srcset="
                                   ./images/smartcase/smartcase-blue1x.webp 1x, 
                                   ./images/smartcase/smartcase-blue2x.webp 2x,
                                   ./images/smartcase/smartcase-blue3x.webp 3x">
-                        <img class="smartcase__images" src="image/img" srcset="
+            <img class="smartcase__images content-item color--blue" src="image/img" srcset="
                                   ./images/smartcase/smartcase-blue1x.jpg 1x, 
                                   ./images/smartcase/smartcase-blue2x.jpg 2x,
                                   ./images/smartcase/smartcase-blue3x.jpg 3x" loading="lazy" decoding="async"
-                          alt="airpods-max-select-blue">
-                      </picture> -->
+              alt="airpods-max-select-blue">
+          </picture>
         </div>
       </div>
     </section>
@@ -426,12 +425,11 @@
 
 
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
 
-  <!-- <script src="node_modules/jquery/dist/jquery.min.js"></script>
-      <script src="node_modules/slick-carousel/slick/slick.min.js"></script> -->
-  <!-- <script src="js/libs.min.js"></script> -->
-  <script src="js/main.js"></script>
+  <!-- <script src="node_modules/jquery/dist/jquery.min.js"></script> -->
+
+  <script src="js/main.min.js"></script>
 </body>
 
 </html>

@@ -1,26 +1,12 @@
 .hero {
   padding-top: clamp(0.625rem, -0.807rem + 7.16vw, 4.563rem);
   padding-bottom: clamp(1.25rem, -1.977rem + 16.14vw, 10.125rem);
-  // padding-top: rem(73);
-  // padding-bottom: rem(162);
+}
 
+.content-item {
+  display: none;
+}
 
-  // &::before {
-  //   content: '';
-  //   position: absolute;
-  //   top: 0;
-  //   left: 0;
-  //   right: 0;
-  // bottom: 0;
-  //   width: 100%;
-  // }
-
-  // &__picture {}
-
-  // &__images {
-  //   position: relative;
-  //   margin: 0 auto;
-  // }
-
-
+.content-item.content-item--active {
+  display: inline-block;
 }

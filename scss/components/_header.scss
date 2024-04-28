@@ -2,6 +2,26 @@
   min-height: 100vh;
   background: linear-gradient(180deg, #ddead9 0%, #ebebeb 100%);
 
+  &:has(.content-item--active.color--blue) {
+    background: linear-gradient(180deg, #cadbeb 0%, #ebebeb 100%);
+  }
+
+  &:has(.content-item--active.color--pink) {
+    background: linear-gradient(180deg, #F3D6D1 0%, #ebebeb 100%);
+  }
+
+  &:has(.content-item--active.color--green) {
+    background: linear-gradient(180deg, #ddead9 0%, #ebebeb 100%);
+  }
+
+  &:has(.content-item--active.color--grey) {
+    background: linear-gradient(180deg, #B6B6B6 0%, #ebebeb 100%);
+  }
+
+  &:has(.content-item--active.color--silver) {
+    background: linear-gradient(180deg, #fafafa 0%, #ebebeb 100%);
+  }
+
   &__top {
     padding-top: clamp(1.25rem, 0.795rem + 2.27vw, 2.5rem);
     // padding-top: rem(40);
